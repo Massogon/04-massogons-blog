@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./massogons-blog/Assets/css/mainMenu.css">
+    <title>Blog Post Form</title>
+</head>
+<body>
+    <!-- Banner section with multiple background layers for parallax effect -->
+    <div class="banner">
+        <div class="bg bg-1"></div>
+        <div class="bg bg-2"></div>
+        <div class="bg bg-3"></div>
+        <h1>Massogon's Blog!</h1>
+        <div class="bg bg-4"></div>
+        <div class="bg bg-5"></div>
+        <div class="bg bg-6"></div>
+        <div class="bg bg-7"></div>
+        <div class="bg bg-8"></div>
+        <div class="bg bg-9"></div>
+    </div>
+
+    <!-- Main wrapper for the form -->
+    <div class="wrapper">
+        <!-- Main container for the blog post form -->
+        <div class="container bg-op">
+            <div class="card-body">
+                <!-- Form title -->
+                <h1>Make a post!</h1>
+                <!-- Blog post form -->
+                <form id="blogPostBody">
+                    <!-- Username field -->
+                    <div>
+                        <label for="user-name">Username</label>
+                        <input class="input" id="user-name" type="text" placeholder="Username" required>
+                    </div>
+                    <!-- Title field -->
+                    <div>
+                        <label for="title">Title</label>
+                        <input class="input" id="title" type="text" placeholder="Title" required>
+                    </div>
+                    <!-- Content field -->
+                    <div>
+                        <label for="content">Content</label>
+                        <textarea class="textarea" id="content" placeholder="Content" required></textarea>
+                    </div>
+                    <!-- Submit button -->
+                    <button class="leButton" id="postBlog" type="submit">Post New Blog!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./massogons-blog/Assets/js/script.js"></script>
+</body>
+</html>
